@@ -3,7 +3,7 @@
 
 /* This sets the background color outside of the contanier. If the container doesn't fit the whole page the user will see a dark gray. */
 body {
-	background-image: url("../images/3d-polygonal-sphere-vector-set.svg");
+	background: 000000;
 	background-size: cover;
 	font-size: 25px;
 
@@ -27,6 +27,10 @@ body {
 
 #main {overflow:auto;
 	padding-bottom: 70px;}  /* must be same height as the footer */
+	
+#frame1_10_{
+	
+}
 
 #footer {position: relative;
 	margin-top: -70px; /* negative value of footer height */
