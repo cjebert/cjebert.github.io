@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* This sets the background color outside of the contanier. If the container doesn't fit the whole page the user will see a dark gray. */
+body {
+	background-image: url("../images/3d-polygonal-sphere-vector-set.svg");
+	background-size: cover;
+	font-size: 25px;
+
+}
+
+/* This is the overall container. This sets the width, height, border, and uses auto margin right and left to center the container.  */
+#wrap {
+	max-width: 1026px;
+	margin-top:5px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFF;
+	border-color:black;
+	border-width:1px;
+	border-style:solid;
+	overflow:hidden;
+	padding:20px 80px;
+	opacity: 0.5;
+}
+
+#main {overflow:auto;
+	padding-bottom: 70px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -70px; /* negative value of footer height */
+	height: 70px;
+	clear:both;} 
+/* Above code is to make footer stick to the bottom */
+
+
+#logosmall{
+	float:left;
+	box-shadow: none;
+	max-height: 150px;
+	max-width: 200px;
+}
+nav{
+	color:#000000;
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	font-weight: 600; 
+	letter-spacing:.05em;
+	float: right;
+	padding-top: 15pt;
+	height:50pt
+}
+nav a{
+	color:#000000;
+	padding-left:10pt;
+	text-decoration:none;	
+}
+nav a:hover{
+	color:#727923;
+}
+
+header{
+	text-align: center;
+}
+
+section{
+	float: none;
+	color: #231F20;
+	font-family: 'Muli', sans-serif;
+	/*font-size: 17px;*/
+	padding-bottom: 40pt;
+	/*text-align:justify;*/
+}
+
+#CE{
+	box-shadow: none;
+	padding-top: 9%;
+	opacity: none;
+}
+section a{
+	font-size: 24px;
+	color: #002f32;
+
+}
+section p{
+	color:#383838;
+	font-size: 24px;
+	
+}
+
+div.hobbies {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #002f32;
+    height: 300px;
+    width: 300px;
+    float: left;
+    text-align: center;
+	}
+	
+div.hobbies hobbies {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 205px;
+    margin: 5px;
+	padding-left: 20px;
+}
+
+h1{
+	clear:left;
+	font-weight:bold;
+	color:#002f32;
+	border-bottom: 3px solid #d89427;
+	padding-top: 10px;
+	font-size: 28px; 
+}
+
+h3{
+	color: #383838;
+	font-size: 38px;
+	/*float: right;
+	position: absolute;
+	left: 570px;*/
+	padding-top: 8%;
+}
+
+
+h4{
+	color: #d89427;
+	font-size: 30px;
+	/*position: absolute;
+	left: 585px;*/
+	padding-top: 1%;
+}
+h2{
+	font-size:24px;
+	color: #002f32;
+}
+h2+img{
+	float:right;
+	border: 10px solid #9C043D;
+	margin-left:60px;
+	margin-top:-35px;
+}
+h2+img p{
+	float:left;
+}
+
+@media screen and (max-width: 399px) {
+ h1, h2, h3, h4{
+ 	font-size: 100%;
+ }
+}
+
+@media screen and (min-width: 400px) and (max-width: 549px) {
+ h1, h2, h3, h4{
+ 	font-size: 92%;
+ }
+}
+
+@media screen and (min-width: 550px) and (max-width: 749px) {
+h1, h2, h3, h4{
+ 	font-size: 95%;
+ }
+}
+
+@media screen and (min-width: 750px) and (max-width: 999px) {
+h1, h2, h3, h4{
+ 	font-size: 100%;
+ }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+h1, h2, h3, h4{
+ 	font-size: 120%;
+ }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+h1, h2, h3, h4{
+ 	font-size: 150%;
+ }
+}
+
+footer {
+	color:#002f32;
+	font-family: 'Muli', sans-serif;
+	font-weight:600;
+	letter-spacing: .03em;
+	font-size:14px;
+	text-align:center;
+	/* height:30pt; */
+}
+footer a{
+	color:#004a4f;
+	text-decoration:none;
+}
+footer a:hover{
+	color:#727923;
+}
