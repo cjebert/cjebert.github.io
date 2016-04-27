@@ -3,7 +3,7 @@
 
 /* This sets the background color outside of the contanier. If the container doesn't fit the whole page the user will see a dark gray. */
 body {
-	background-image: url("../images/3d-polygonal-sphere-vector-set.svg");
+	background: 000000;
 	background-size: cover;
 	font-size: 25px;
 
