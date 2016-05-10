@@ -73,6 +73,7 @@ section{
 	/*text-align:justify;*/
 }
 
+
 #CE{
 	box-shadow: none;
 	padding-top: 9%;
@@ -81,6 +82,7 @@ section{
 section a{
 	font-size: 24px;
 	color: #002f32;
+	padding-left: 10px;
 
 }
 section p{
