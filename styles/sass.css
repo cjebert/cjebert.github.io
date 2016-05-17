@@ -1,0 +1,28 @@
+
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #000000;
+
+body {
+	font: 100% $font-stack;
+	color: $primary-color;
+}
+
+h1 {
+	color: #002f32;
+}
+
+h2 {
+	color: #002f32;
+}
+
+h3 {
+	color: #383838;
+}
+
+h4 {
+	color: #d89427;
+}
+/*didn't get a chance to finish what I was working on, spent the afternoon
+in the ER, my son broke his arm at recess.  */
+

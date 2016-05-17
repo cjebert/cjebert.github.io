@@ -35,12 +35,6 @@ body {
 /* Above code is to make footer stick to the bottom */
 
 
-#logosmall{
-	float:left;
-	box-shadow: none;
-	max-height: 150px;
-	max-width: 200px;
-}
 nav{
 	color:#000000;
 	font-family: 'Muli', sans-serif;
@@ -74,11 +68,6 @@ section{
 }
 
 
-#CE{
-	box-shadow: none;
-	padding-top: 9%;
-	opacity: none;
-}
 section a{
 	font-size: 24px;
 	color: #002f32;
@@ -91,21 +80,6 @@ section p{
 	
 }
 
-div.hobbies {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #002f32;
-    height: 300px;
-    width: 300px;
-    float: left;
-    text-align: center;
-	}
-	
-div.hobbies hobbies {
-    display: inline;
-    margin: 5px;
-    border: 1px solid #ffffff;
-}
 
 div.img a:hover img {
     border:1px solid #0000ff;
