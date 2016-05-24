@@ -1,0 +1,124 @@
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav li {
+    font-size:25px;
+    display:block;
+    float: left;
+    height:50px;
+    width: 145px; /*new*/
+    text-align: center; /*new*/
+    transition: all 0.2s ease-in-out;
+}
+
+.nav li a {
+    font-family: 'Muli', sans-serif;
+    color:white;
+    font-size:30px;
+    text-decoration: none;
+    display: block;
+    padding:15px;
+}
+
+.nav li b {
+    color:white;
+    padding:0 10px;
+}
+.nav li i {
+    padding: 15px 0;
+    display: none;
+}
+.nav a:hover {
+    color: #A1A0A9;
+}
+.nav a:hover b {
+    display: none;
+}
+.nav a:hover i {
+    display: block;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+.wrapper {
+	width: 100%; 
+	margin: 0; 
+	padding: 20px; 
+	font-family:'Muli', sans-serif;
+}
+
+	
+.container {
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	color: #fff;
+	border: solid 5px #fff;
+	padding:40px;
+	width:600px;
+	height:500px;
+	margin:60px auto 0px auto;
+	position:relative;
+	overflow: none;
+}
+
+
+section a{
+	font-size: 24px;
+	color: white;
+
+}
+section p{
+	color:white;
+	font-size: 24px;
+	
+}
+
+.right {
+	margin-left: -160px; 
+}
+
+h1{
+	clear:left;
+	font-family:'Rock Salt', cursive;
+	font-size:35px;
+	color:#EBE8C9;
+	border-bottom: 3px solid #d89427;
+	padding-top: 10px;
+}
+
+h3{
+	font-size: 40px;
+	font-family: 'Rock Salt', cursive;
+	font-weight: bold;
+	color: white;
+	float: right;
+	position: absolute;
+	left: 300px;
+	top: 185px;
+}
+
+footer {
+	color: white;
+	font-family:'Muli', sans-serif;
+	font-weight:600;
+	letter-spacing: .03em;
+	font-size:25px;
+	text-align:center;
+	/* height:30pt; */
+}
+footer a{
+	color: white;
+	text-decoration:none;
+}
+footer a:hover{
+	color:white;
+}
+
+
