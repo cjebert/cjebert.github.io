@@ -71,8 +71,12 @@ body{
 
 
 section a{
-	font-size: 24px;
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
 	color: white;
+	text-decoration: none;
+    display: inline-block;
+    padding:10px;
 
 }
 section p{
@@ -94,6 +98,7 @@ h1{
 	border-bottom: 3px solid #d89427;
 	padding-top: 115px;
 }
+
 
 h3{
 	font-size: 25px;
@@ -201,8 +206,12 @@ body{
 
 
 section a{
-	font-size: 24px;
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
 	color: white;
+	text-decoration: none;
+    display: inline-block;
+    padding:10px;
 
 }
 section p{
@@ -328,8 +337,12 @@ body{
 
 
 section a{
-	font-size: 24px;
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
 	color: white;
+	text-decoration: none;
+    display: inline-block;
+    padding:10px;
 
 }
 section p{
@@ -459,8 +472,12 @@ body{
 
 
 section a{
+	font-family: 'Muli', sans-serif;
 	font-size: 24px;
 	color: white;
+	text-decoration: none;
+    display: inline-block;
+    padding:10px;
 
 }
 section p{

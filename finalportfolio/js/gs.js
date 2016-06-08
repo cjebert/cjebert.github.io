@@ -1,0 +1,1 @@
+$(".right").animate({top:-10, left:425, bottom:10}, 500);
